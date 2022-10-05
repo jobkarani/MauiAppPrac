@@ -25,7 +25,7 @@ public partial class MainPage : ContentPage
 
 	private async void Button_Clicked(object sender, EventArgs e)
 	{
-		await Shell.Current.GoToAsync("NewPage");
+		await Shell.Current.GoToAsync("NewPage2");
 	}
 }
 
