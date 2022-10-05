@@ -26,8 +26,6 @@ public partial class MainPage : ContentPage
 	private void Button_Clicked(object sender, EventArgs e)
 	{
 		DisplayAlert("Hello", "Ayub", "Ok");
-
 	}
-
 }
 
