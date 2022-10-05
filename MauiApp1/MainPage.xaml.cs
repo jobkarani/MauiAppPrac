@@ -23,9 +23,9 @@ public partial class MainPage : ContentPage
 		SemanticScreenReader.Announce(CounterBtn.Text);
 	}
 
-	private void Button_Clicked(object sender, EventArgs e)
+	private async void Button_Clicked(object sender, EventArgs e)
 	{
-		DisplayAlert("Hello", "Ayub", "Ok");
+		await Shell.Current.GoToAsync("NewPage");
 	}
 }
 
