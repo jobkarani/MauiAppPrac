@@ -23,4 +23,6 @@ public class NewPage2 : ContentPage
 	{
 		await Shell.Current.GoToAsync("..");
 	}
+	
+	
 }
